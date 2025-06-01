@@ -54,14 +54,14 @@
             timeout-ms = <50>;
         };
 
-        left_par {
-            bindings = <&kp LEFT_PARENTHESIS>;
+        copy {
+            bindings = <&kp LG(C)>;
             key-positions = <15 16>;
             timeout-ms = <50>;
         };
 
-        right_par {
-            bindings = <&kp RIGHT_PARENTHESIS>;
+        paste {
+            bindings = <&kp LG(V)>;
             key-positions = <19 20>;
             timeout-ms = <50>;
         };
@@ -94,7 +94,7 @@
 
         default_layer {
             bindings = <
-&kp TAB       &kp Q           &kp W           &kp E        &kp R             &kp T             &kp Y      &kp U             &kp I          &kp O            &kp P               &kp BSPC
+&kp GRAVE     &kp Q           &kp W           &kp E        &kp R             &kp T             &kp Y      &kp U             &kp I          &kp O            &kp P               &kp BSPC
 &hm LCTRL ESC &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LCTRL D  &hm LEFT_SHIFT F  &kp G             &kp H      &hm RSHIFT J      &hm RCTRL K    &hm RIGHT_ALT L  &hm RGUI SEMICOLON  &kp SQT
 &kp LSHFT     &kp Z           &kp X           &kp C        &kp V             &kp B             &kp N      &kp M             &kp COMMA      &kp DOT          &kp FSLH            &kp ENTER
                                               &kp TAB      &lt 1 SPACE       &lt 2 ENTER       &lt 3 ESC  &ltq 2 SPACE      &kp BSPC
@@ -142,3 +142,4 @@
 
     };
 };
+
