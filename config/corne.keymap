@@ -109,7 +109,7 @@
             bindings = <
 &kp GRAVE &kp N1 &kp N2 &kp N3 &kp N4 &kp N5  &kp N6 &kp N7 &kp N8 &kp N9 &kp MINUS &kp EQUAL
 &trans &trans &hm LALT LEFT &hm LCTRL UP &hm LSHFT DOWN &kp RIGHT  &kp LEFT &hm RSHIFT DOWN &hm RCTRL UP &hm RALT RIGHT &kp FSLH &kp BSLH
-&trans &kp LG(Z) &kp LG(X) &kp LG(C) &kp LG(V) &kp LC(B)  &kp LS(LBRC) &kp LS(RBKT) &kp LBRC &kp RBKT &kp LS(COMMA) &kp LS(DOT)
+&trans &kp LG(Z) &kp LG(X) &kp LG(C) &kp LG(V) &kp LC(B)  &kp LS(LBRC) &kp LS(RBKT) &kp LBKT &kp RBKT &kp LS(COMMA) &kp LS(DOT)
    &trans &trans &trans  &kp LS(N9) &kp N0 &kp LS(N0)   
             >;
         };
