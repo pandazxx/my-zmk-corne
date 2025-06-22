@@ -98,11 +98,6 @@
 
         default_layer {
             bindings = <
-/* ,&kp GRAVE    ,&kp Q          ,&kp W          ,&kp E      ,&kp R          ,&kp T          ,&kp Y  ,&kp U          ,&kp I&      ,&kp O          ,&kp P              ,&kp BSPC  */
-/* ,&hm LCTRL ESC,&hm LEFT_GUI A ,&hm LEFT_ALT S ,&hm LCTRL D,&hm LEFT_SHIFT F,&kp G         ,&kp H  ,&hm RSHIFT J   ,&hm RCTRL K,&hm RIGHT_ALT L,&hm RGUI SEMICOLON ,&kp SQT  */
-/* ,&kp LSHFT    ,&kp Z          ,&kp X          ,&kp C      ,&kp V          ,&kp B          ,&kp N  ,&kp M          ,&kp COMMA  ,&kp DOT        ,&kp FSLH           ,&kp ENTER  */
-/*                                              ,&kp TAB    ,&lt 1 SPACE    ,&lt 2 ESC      ,&lt 3 ESC,&ltq 2 SPACE     ,&kp BSPC */
-
 &kp GRAVE	&kp Q	&kp W	&kp E	&kp R	&kp T		&kp Y	&kp U	&kp I&	&kp O	&kp P	&kp BSPC
 &hm LCTRL ESC	&hm LEFT_SHIFT A	&hm LEFT_ALT S	&hm LCTRL D	&hm LEFT_GUI F	&kp G		&kp H	&hm RGUI J	&hm RCTRL K	&hm RIGHT_ALT L	&hm RSHIFT SEMICOLON	&kp SQT
 &kp LSHFT	&kp Z	&kp X	&kp C	&kp V	&kp B		&kp N	&kp M	&kp COMMA	&kp DOT	&kp FSLH	&kp ENTER
@@ -112,10 +107,6 @@
 
         lower_layer {
             bindings = <
-/* ,&kp GRAVE         ,&kp N1  ,&kp N2        ,&kp N3       ,&kp N4         ,&kp N5         ,&kp N6     ,&kp N7           ,&kp N8       ,&kp N9         ,&kp N0     ,&kp MINUS */
-/* ,&trans            ,&trans  ,&hm LALT LEFT ,&hm LCTRL UP ,&hm LSHFT DOWN ,&kp RIGHT      ,&kp LEFT   ,&hm RSHIFT DOWN  ,&hm RCTRL UP ,&hm RALT RIGHT ,&kp SLASH  ,&kp EQUAL */
-/* ,&trans            ,&trans  ,&trans        ,&trans       ,&trans         ,&trans         ,&kp C_PREV ,&kp C_VOL_DN     ,&kp C_VOL_UP ,&kp C_NEXT     ,&trans     ,&kp C_PP */
-/*                                         ,&trans       ,&trans         ,&trans         ,&trans     ,&kp RIGHT_SHIFT  ,&trans */
 &kp GRAVE	&kp N1	&kp N2	&kp N3	&kp N4	&kp N5		&kp N6	&kp N7	&kp N8	&kp N9	&kp MINUS	&kp EQUAL
 &trans	&trans	&hm LALT LEFT	&hm LCTRL UP	&hm LSHFT DOWN	&kp RIGHT		&kp LEFT	&hm RSHIFT DOWN	&hm RCTRL UP	&hm RALT RIGHT	&kp FSLH	&kp BSLH
 &trans	&kp LG(Z)	&kp LG(X)	&kp LG(C)	&kp LG(V)	&kp LC(B)		&kp LS(LBRC)	&kp LS(RBKT)	&kp LBRC	&kp RBKT	&kp LS(COMMA)	&kp LS(DOT)
